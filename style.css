@@ -1,0 +1,89 @@
+#view {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+
+}
+.box {
+    width: 28vw;
+    height: 30vh;
+    margin-top: 2vh;
+    margin-left: 3.2vw;
+    background-color: white;
+    box-sizing: border-box;
+    float: left;
+    /* border-radius: 3vh; */
+    /* transform-origin:left center; */
+    
+}
+
+.anime{
+    animation: yes 10s;
+}
+
+
+@keyframes yes {
+    0%{
+        transform: skewy(0deg);
+    }
+    5%{
+        transform: rotateY(30deg) skewy(30deg);
+    }
+    12%{
+        transform: rotateY(-20deg) skewy(-20deg);
+    }
+    18%{
+        transform: rotateY(22deg) skewy(22deg);
+    }
+    24%{
+        transform: rotateY(-16deg) skewy(-16deg);
+    }
+    29%{
+        transform: rotateY(14deg) skewy(14deg);
+    }
+    33%{
+        transform: rotateY(-12deg) skewy(-12deg);
+    }
+    36%{
+        transform: rotateY(6deg) skewy(6deg);
+    }
+    38%{
+        transform: rotateY(-8deg) skewy(-8deg);
+    }
+    40%{
+        transform: rotateY(2deg) skewy(2deg)
+    }
+    41%{
+        transform: rotateY(-4deg) skewy(-4deg);
+    }
+    42%{
+        transform: skewy(2deg);
+    }
+    42.5%{
+        transform: skewy(-1deg);
+    }
+    43%{
+        transform: skewy(1deg);
+    }
+    43.5%{
+        transform: skewy(-0.5deg);
+    }
+    44%{
+        transform: skewy(0.5deg);
+    }
+    44.5%{
+        transform: skewy(-0.3deg);
+    }
+    45%{
+        transform: skewy(0.3deg);
+    }
+    45.5%{
+        transform: skewy(-0.1deg);
+    }
+    46%{
+        transform: skewy(0.1deg);
+    }
+    46.5%{
+        transform: skewy(0deg);
+    }
+}
