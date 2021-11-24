@@ -13,7 +13,7 @@
     box-sizing: border-box;
     float: left;
     /* border-radius: 3vh; */
-    /* transform-origin:left center; */
+    transform-origin:left center;
     
 }
 
