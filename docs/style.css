@@ -1,20 +1,37 @@
 #view {
     width: 100vw;
     height: 100vh;
-    background-color: black;
-
+    overflow: hidden;
+    position: fixed;
+}
+.dd{
+    width: 100vw;
+    height: 100vh;
+}
+body {
+    background-color: white;
 }
 .box {
-    width: 28vw;
+    width: 30vw;
     height: 30vh;
-    margin-top: 2vh;
-    margin-left: 3.2vw;
+    /* margin-top: 2vh;
+    margin-left: 2.5vw; */
     background-color: white;
     box-sizing: border-box;
     float: left;
     /* border-radius: 3vh; */
-    transform-origin:left center;
+    /* transform-origin:left center; */
     
+}
+
+.boxes{
+    width: 30vw;
+    height: 30vh;
+    margin-top: 2vh;
+    margin-left: 2.5vw;
+    background-color: black;
+    box-sizing: border-box;
+    float: left;
 }
 
 .anime{
@@ -30,31 +47,31 @@
         transform: rotateY(30deg) skewy(30deg);
     }
     12%{
-        transform: rotateY(-20deg) skewy(-20deg);
+        transform: rotateY(20deg) skewy(-20deg);
     }
     18%{
         transform: rotateY(22deg) skewy(22deg);
     }
     24%{
-        transform: rotateY(-16deg) skewy(-16deg);
+        transform: rotateY(16deg) skewy(-16deg);
     }
     29%{
         transform: rotateY(14deg) skewy(14deg);
     }
     33%{
-        transform: rotateY(-12deg) skewy(-12deg);
+        transform: rotateY(12deg) skewy(-12deg);
     }
     36%{
         transform: rotateY(6deg) skewy(6deg);
     }
     38%{
-        transform: rotateY(-8deg) skewy(-8deg);
+        transform: rotateY(8deg) skewy(-8deg);
     }
     40%{
         transform: rotateY(2deg) skewy(2deg)
     }
     41%{
-        transform: rotateY(-4deg) skewy(-4deg);
+        transform: rotateY(4deg) skewy(-4deg);
     }
     42%{
         transform: skewy(2deg);

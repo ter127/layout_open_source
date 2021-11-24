@@ -1,5 +1,4 @@
 window.onload = function() {
-    var test = "off"
     var arr = ["id1","id2","id3","id4","id5","id6","id7","id8","id9"];
     var toggle = ["off","off","off","off","off","off","off","off","off"]
     var view = document.getElementById("view");
@@ -21,10 +20,13 @@ window.onload = function() {
     })
     } 
     for(var i in arr) {
-        var paragraph = document.createElement("div");
-        view.appendChild(paragraph);
-        paragraph.setAttribute("id", i)
-        paragraph.classList.add("box");
+        var boxes = document.createElement("div");
+        var box = document.createElement("div");
+        view.appendChild(boxes);
+        box.setAttribute("id", i);
+        boxes.classList.add("boxes");
+        boxes.appendChild(box);
+        box.classList.add("box");
         spin(i,"box",toggle[i]);
         console.log("박스 연결")
     }
